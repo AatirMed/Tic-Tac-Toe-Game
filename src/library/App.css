@@ -1,27 +1,56 @@
-a{
-    text-decoration: none;
+.Nb_want{
+    width: 60px;
+    outline: none;
+    cursor: pointer;
+}
+
+.one_uuid{
+    margin-bottom: 20px;
+}
+.Generate{
+    margin-left:5px ;
+}
+.one_uuid_hex{
+    display: flex;
+}
+
+.one_uuid{
+    width: 370px;
+    margin-right: 10px;
+}
+
+.all_uuid h4{
+    margin: 0;
+}
+input , textarea{
+    outline: none;
+}
+.vCon948{
+    width: 300px;
+    margin-right: 8px;
+}
+.mRyr93{
+    margin-right: 8px;
+}
+.mr837{
+    color: #fff;
+    padding: 2px 10px;
+    border-radius: 4px;
+    background-color: rgb(255, 0, 0);
+}
+.OR89374 {
+    width: 575px;
+    line-height: 30px;
+    border-radius: 5px;
+    background-color: #222222;
+    color: #cccccc;
+}
+.OR89374TEXT {
+    margin: 0 40px;
+    color: #cccccc;
+}
+
+.OR89374ID {
     margin-right: 20px;
-}
-a:hover{
-    color: white;
-    background-color: orange;
-}
-
-.all_s h3 {
-    text-align: center;
-}
-
-
-.all_s {
-display: flex;
-width: 900px;
-flex-wrap: wrap;
-}
-
-img {
-    width: 200px;
-}
-.one_s{
-    height: 236.77px;
-    margin-right: 20px;
+    color: #cccccc;
 }

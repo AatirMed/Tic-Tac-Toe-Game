@@ -1,27 +1,26 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './library/App.css';
-import {  Route, Routes } from 'react-router';
+import { Link, Route, Routes } from 'react-router-dom';
 
-// Page
-import Details from './library/Page/Details';
-import Home from './library/Page/Home';
-import Ajouter from './library/Page/Ajouter';
+import Generatoguid from './library/Generatoguid';
+import ConvertionToOracle from './library/ConvertionToOracle';
+import ConvertionGuid from './library/convertionGuid';
 
 function App() {
-  const [stagiaire, setStagaire] = useState({
-    image: "URL",
-    nom: "AATIR",
-    prenom: "Mohamed",
-    filiere: "FS202"
-  })
 
   return (
     <div className="App">
-    
+      <nav>
+        <Link to='/' style={{ marginRight: '20px' }} >Generator guid</Link>
+        <Link to='/convertion' style={{ marginRight: '20px' }} >Convertion Text</Link>
+        <Link to='/ConvertionGuid' >Convertion Guid</Link>
+      </nav>
+      <br />
       <Routes>
-      <Route path='/' element={<Home/>}  />
-      <Route path='/:nom' element={<Details/>}  />
-      <Route path='/add' element={<Ajouter/>}  />
+        <Route path='/' element={<Generatoguid />} />
+        <Route path='*' element={<Generatoguid />} />
+        <Route path='/convertion' element={<ConvertionToOracle />} />
+        <Route path='/ConvertionGuid' element={<ConvertionGuid />} />
       </Routes>
     </div>
   );
