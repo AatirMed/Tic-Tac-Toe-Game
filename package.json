@@ -1,6 +1,6 @@
 {
-  "homepage": "https://AatirMed.github.io/material",
-  "name": "material",
+  "homepage": "https://AatirMed.github.io/Tic-Tac-Toe-Game",
+  "name": "tic-tac-toe-game",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

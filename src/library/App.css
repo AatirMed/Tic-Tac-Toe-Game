@@ -1,56 +1,61 @@
-.Nb_want{
-    width: 60px;
-    outline: none;
-    cursor: pointer;
+.App {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+.tictac {
+  border-radius: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 246px;
+  height: 246px;
+  background-color: rgb(0, 0, 0);
+  justify-content: space-between;
+  align-content: stretch;
 }
 
-.one_uuid{
-    margin-bottom: 20px;
-}
-.Generate{
-    margin-left:5px ;
-}
-.one_uuid_hex{
-    display: flex;
-}
+.tictac .tic {
+  border-radius: 3px;
+  width: 80px;
+  height: 80px;
+  font-size: 40px;
 
-.one_uuid{
-    width: 370px;
-    margin-right: 10px;
-}
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-.all_uuid h4{
-    margin: 0;
+  background-color: rgb(255, 0, 0);
+  border: 1px solid #000000;
 }
-input , textarea{
-    outline: none;
+.tictac .win {
+  color: rgb(255, 255, 255);
 }
-.vCon948{
-    width: 300px;
-    margin-right: 8px;
+.result {
+  border-radius: 5px;
+  width: 246px;
+  height: 40px;
+  background-color: #ff0000;
+  color: #ffffff;
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
 }
-.mRyr93{
-    margin-right: 8px;
+.dis {
+  display: none;
 }
-.mr837{
-    color: #fff;
-    padding: 2px 10px;
-    border-radius: 4px;
-    background-color: rgb(255, 0, 0);
+button {
+  width: 246px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
 }
-.OR89374 {
-    width: 575px;
-    line-height: 30px;
-    border-radius: 5px;
-    background-color: #222222;
-    color: #cccccc;
+.btn_win {
+  background: #1cba00;
 }
-.OR89374TEXT {
-    margin: 0 40px;
-    color: #cccccc;
-}
-
-.OR89374ID {
-    margin-right: 20px;
-    color: #cccccc;
+.btn_over {
+  background: #ff0000;
 }
