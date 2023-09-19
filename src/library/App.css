@@ -53,7 +53,8 @@ button {
   border-radius: 5px;
   color: #fff;
 }
-.btn_win {
+.btn_win,
+.r_color {
   background: #1cba00;
 }
 .btn_over {

@@ -109,7 +109,7 @@ function App() {
   return (
     <div className="App">
       <div className={win !== "" ? 'result_tic' : 'dis'}>
-        <div className='result'>{win === 'win' ? "Game Win" : "Game Over"}</div>
+        <div className={win === "win" ? 'result r_color' : 'result'}>{win === 'win' ? "Game Win" : "Game Over"}</div>
         <button className={win === "win" ? "btn_win" : 'btn_over'} onClick={reset}>Reset</button>
       </div>
       <div className={win === "" ? 'tictac' : 'tictac dis'} >
